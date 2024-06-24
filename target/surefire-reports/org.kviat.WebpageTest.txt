@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.kviat.WebpageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 210.4 s <<< FAILURE! -- in org.kviat.WebpageTest
+org.kviat.WebpageTest.testFontUsage -- Time elapsed: 177.5 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected font family 'Arial, sans-serif' but found 'Arial, Helvetica, sans-serif' ==> expected: <Arial, sans-serif> but was: <Arial, Helvetica, sans-serif>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.kviat.WebpageTest.testFontUsage(WebpageTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
